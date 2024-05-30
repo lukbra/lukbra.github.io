@@ -1,0 +1,53 @@
+/* styles.css */
+
+body {
+    font-family: "Courier New", monospace;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+nav {
+    background-color: #444;
+    text-align: center;
+	padding: 10px 0;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Set a maximum width for the text */
+.text-container {
+    max-width: 800px; 
+    margin: 0 auto;
+    padding: 20px;
+}
