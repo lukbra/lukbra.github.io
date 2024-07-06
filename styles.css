@@ -49,6 +49,8 @@ footer {
     max-width: 800px; 
     margin: 0 auto;
     padding: 20px;
+	text-align: justify;
+	margin-bottom: 60px;
 }
 
 .gallery {
