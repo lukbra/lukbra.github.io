@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>At High Noon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+	<div id="title"></div>
+    <div id="nav-main"></div>
+	<center>
+		<img src="graphics/AtHighNoon.jpg">
+		<H1>At High Noon</H1
+	</center>
+	
+	<p class="text-container">
+	I suck at C. It was not a big problem for most of my life but now I'm working in a project where not sucking at C is one of desired qualities. I'm interacting with this language almost daily and one might think that it is ideal way to learn. Is a way, it is, but in the same time this project is complex, entangled in various external dependencies and it is really hard to treat it as good learning material. To improve my situation, I tried Udemy courses, "let's make..." articles but nothing really clicked and soon I was finding myself debugging whatever the technological gap was between the tutorial and my environment. That was until I found that a lot of people learn various languages with...</p>
+	
+	<center>
+		<H3> RayLib </H3>
+	</center>
+	
+	<p class="text-container">
+	At the first glance it might look like it is a game engine but this is not. RayLib provides all means necessary to handle graphics, audio and interacting with your product. It leaves blank canvas when it comes to tying it all together, which includes logic of even the basic things like movement, and this is perfect for learning. However, like any good thing i life, this doesn't come without a cost of thinking in a different programming paradigm.<br>
+	Fundamentally, program is executed in one huge while loop. Update the logic, draw a frame, update the logic, and draw the next frame. It took me a while to internalize this and I'm sure I will stumble many times. I think, in relation to what I'm doing at work it is also different enough, that despite using the same language, the distinction is clear enough that I don't think "work" when making anything with RayLib. Even this first project I undertook taught me a lot. One of the most valuable lessons I learned quickly was to...</p>
+	
+	<center>
+		<H3> start small. No, no, no... smaller. </H3>
+	</center>
+	
+	<p class="text-container">
+	RayLib site offers a wide range of usage examples and based on them, header definitions and helpful Internet people, one is able to start making working prototypes of game parts quickly, which is encouraging. With first fast wins I started to design a "serious" game, a small 2D top down cRPG. Fairly linear plot, 4 NPCs, simplified leveling system, quest system, dialog system, several maps... When I started to write down what do I actually need to implement in order to get all of this, it quickly became apparent that I went way too deep to produce anything of this caliber in foreseeable future. I need to mention, I didn't even know the half of what I really need to do. I set the project aside and started to think about something suitable for my level. No movement, simple controls, limited graphics and I came up with an idea of dueling game called...</p>
+	
+	<center>
+		<H3> At High Noon </H3>
+	</center>
+	
+	<p class="text-container">
+	Idea was simple, two cowboys are meeting to talk the differences under the scorching midday sun, to present their data-backed arguments and... Of course not! Whoever shots first, wins a round, whoever wins 3 rounds, wins the duel. I needed basic graphics. I'm not an artist by any means, so I used the powers of AI and generated a background and few cowboy poses by putting my local machine to work. After heating up my room for an afternoon or two and quick Photoshop cleanup I had what I wanted - I turned out I wanted cowboy, cowgirl and pixelart background of western town.<br>
+	Them, code. Controls were simple, one keyboard button per player and few menu options to click around. Game state is where I had the most troubles, partly due to the gotchas of updating while(true) loop logic. I solved the emerging problems as they were coming. For simplicity I focused on Windows, it mainly comes down to setting up the compiler. For an extra credit in assignment no one will ever grade I thought I'll add Challenge Mode - where player will be able to write what is the duel for. Prize? Truth? Dare? You are the master of your fate now, on condition that you can describe it in 50 chars or less. Still, given the extremely narrow scope of this game I'm about to give you, it was a lot of work and code lines count doesn't reflect it. But I learned a lot and had fun doing it. I was able to get back to working on it and can brag that I actually drove a side project to the end. Upon opening the code you mitght have an urge to write to me:</p>
+
+	<center>
+		<H3> "Lukasz, consider changing this or that" </H3>
+	</center>
+	
+	<p class="text-container">
+	Sorry I won't. If I consider anything, it is this game being a finished work. I see places to improve, to refactor, to streamline, I would probably find many things to tweak, but at the end of the day, I'll be dealing with the same code just reorganizing bricks with less and less ROI. It is better to say "good enough is good enough" and transfer the learned lessons to the next thing.<br><br>
+
+	My only wish is that I'll look at this in some time and I will have a good laugh.</p>
+	
+	<center>
+		<H2><a href="https://github.com/lukbra/AtHighNoon">GitHub link to the game</a></H2>
+	</center>
+	
+    <div id="footer"></div>
+	
+	<script src="../load-site-elems.js"></script>
+
+</body>
+
+</html>
